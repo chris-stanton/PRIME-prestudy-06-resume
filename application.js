@@ -1,9 +1,11 @@
 
 $(document).ready(function() {
-
-  $("header, p, img, h2, h3, h4, ul, li, div, footer").hide();    // hides all data
+// Hides all data on refresh
+  $("header, p, img, h2, h3, h4, ul, li, div, footer").hide();
+// Button reveals hidden data
     $("button").click(function(){
-        $("header, p, img, h2, h3, h4, ul, li, div, footer").show();    // reveals hidden data
-        $("button").hide();    // hides button
+        $("header, p, img, h2, h3, h4, ul, li, div, footer").show();
+// Hides button
+        $("button").hide();
     });
 });
